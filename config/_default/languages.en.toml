@@ -1,0 +1,23 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Red Blowfish"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+description = "My awesome website"
+dateFormat = "2 January 2006"
+# logo = "img/logo.png"
+# secondaryLogo = "img/logo.png"
+
+[author]
+name = "ToneTone"
+image = "img/logo.png"
+headline = "为你提供更加专业，易用的音乐AI工具"
+bio = "一个由音乐爱好者和程序员组成的团队，希望带给你专业的音乐体验！"
+links = [
+  { github = "https://github.com/X-ToneTone" },
+  { link = "https://raw.githubusercontent.com/X-ToneTone/shares/main/wechat.jpg" },
+]
