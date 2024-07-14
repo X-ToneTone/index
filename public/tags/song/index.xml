@@ -9,13 +9,23 @@
     <copyright>© 2024 ToneTone · 粤ICP备2024278723号</copyright>
     <lastBuildDate>Sun, 14 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/song/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>歌曲生成器</title>
-      <link>http://localhost:1313/posts/music-generator/</link>
+      <title>定制化的歌曲生成器</title>
+      <link>http://localhost:1313/projects/custom-song-generator/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/music-generator/</guid>
+      <guid>http://localhost:1313/projects/custom-song-generator/</guid>
+      <description>定制化的歌曲生成器(Custom Song Generator)，它能够让你更加定制化的生成音乐，提供了音乐风格，纯乐器等选项，可生成效果不错并且定制化的歌曲</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/custom-song-generator/cover.png" />
+    </item>
+    
+    <item>
+      <title>歌曲生成器</title>
+      <link>http://localhost:1313/projects/song-generator/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/song-generator/</guid>
       <description>歌曲生成器(Song Generator)，它能够让你体验到ai生成音乐的快乐，只需要最简单的操作，即可生成效果不错的歌曲</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/music-generator/cover.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/song-generator/cover.png" />
     </item>
     
   </channel>

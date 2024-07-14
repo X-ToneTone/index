@@ -12,17 +12,17 @@
 
 [[main]]
 name = "产品"
-pageRef = "posts"
+pageRef = "projects"
 weight = 10
 
 [[main]]
 name = "时间线"
-pageRef = "tags"
+pageRef = "time-line"
 weight = 20
 
 [[main]]
 name = "关于ToneTone"
-pageRef = "tags"
+pageRef = "about"
 weight = 30
 
 [[main]]

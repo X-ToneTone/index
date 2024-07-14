@@ -21,4 +21,5 @@ bio = "一个由音乐爱好者和程序员组成的团队，希望带给你专�
 links = [
   { github = "https://github.com/X-ToneTone" },
   { link = "https://raw.githubusercontent.com/X-ToneTone/shares/main/wechat.jpg" },
+  { email = "mailto:admin@x-tonetone.com" },
 ]

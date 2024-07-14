@@ -1,13 +1,13 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Red Blowfish"
+title = "ToneTone"
 
 [params]
 displayName = "EN"
 isoCode = "en"
 rtl = false
-description = "My awesome website"
+description = "We are ToneTone, a team composed of programmers and music enthusiasts. We are well aware that in the world of programming, the assistance of AI has greatly enhanced our daily work efficiency and creativity"
 dateFormat = "2 January 2006"
 copyright = "© { year } ToneTone · 粤ICP备2024278723号"
 # logo = "img/logo.png"
@@ -21,4 +21,5 @@ bio = "A team composed of music enthusiasts and programmers, hoping to bring you
 links = [
   { github = "https://github.com/X-ToneTone" },
   { link = "https://raw.githubusercontent.com/X-ToneTone/shares/main/wechat.jpg" },
+  { email = "mailto:admin@x-tonetone.com" },
 ]

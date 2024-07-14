@@ -1,51 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on ToneTone</title>
-    <link>http://localhost:58669/posts/</link>
-    <description>Recent content in Posts on ToneTone</description>
+    <title>产品列表 on ToneTone</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in 产品列表 on ToneTone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2024 ToneTone · 粤ICP备2024278723号</copyright>
-    <lastBuildDate>Mon, 13 Jun 2022 20:55:37 +0100</lastBuildDate><atom:link href="http://localhost:58669/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Super cool article that I wrote</title>
-      <link>http://localhost:58669/posts/post-lite-one/</link>
-      <pubDate>Sun, 04 Sep 2022 00:00:00 +0000</pubDate>
+      <title>定制化的歌曲生成器</title>
+      <link>http://localhost:1313/posts/custom-song-generator/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:58669/posts/post-lite-one/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in eleifend justo, vestibulum congue lacus. Quisque est libero, lacinia sed placerat ac, interdum id urna.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:58669/posts/post-lite-one/cover.png" />
+      <guid>http://localhost:1313/posts/custom-song-generator/</guid>
+      <description>定制化的歌曲生成器(Custom Song Generator)，它能够让你更加定制化的生成音乐，提供了音乐风格，纯乐器等选项，可生成效果不错并且定制化的歌曲</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/custom-song-generator/cover.png" />
     </item>
     
     <item>
-      <title>Super cool article that I wrote</title>
-      <link>http://localhost:58669/posts/post-lite-three/</link>
-      <pubDate>Sun, 04 Sep 2022 00:00:00 +0000</pubDate>
+      <title>歌曲生成器</title>
+      <link>http://localhost:1313/posts/song-generator/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:58669/posts/post-lite-three/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in eleifend justo, vestibulum congue lacus. Quisque est libero, lacinia sed placerat ac, interdum id urna.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:58669/posts/post-lite-three/cover.png" />
+      <guid>http://localhost:1313/posts/song-generator/</guid>
+      <description>歌曲生成器(Song Generator)，它能够让你体验到ai生成音乐的快乐，只需要最简单的操作，即可生成效果不错的歌曲</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/song-generator/cover.png" />
     </item>
     
     <item>
-      <title>Super cool article that I wrote</title>
-      <link>http://localhost:58669/posts/post-lite-two/</link>
-      <pubDate>Sun, 04 Sep 2022 00:00:00 +0000</pubDate>
+      <title>和弦进行生成器</title>
+      <link>http://localhost:1313/posts/chord-progression-generator/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:58669/posts/post-lite-two/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in eleifend justo, vestibulum congue lacus. Quisque est libero, lacinia sed placerat ac, interdum id urna.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:58669/posts/post-lite-two/cover.png" />
-    </item>
-    
-    <item>
-      <title>Super cool article that I wrote</title>
-      <link>http://localhost:58669/posts/post-lite-four/</link>
-      <pubDate>Sat, 04 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:58669/posts/post-lite-four/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in eleifend justo, vestibulum congue lacus. Quisque est libero, lacinia sed placerat ac, interdum id urna.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:58669/posts/post-lite-four/cover.png" />
+      <guid>http://localhost:1313/posts/chord-progression-generator/</guid>
+      <description>和弦进行生成器(Chord Progression Generator)，它能够为音乐人在作曲或者改编歌曲的初期提供和弦进行的灵感，让“万事开头难”变得不再难。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/chord-progression-generator/cover.png" />
     </item>
     
   </channel>

@@ -7,35 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2024 ToneTone · 粤ICP备2024278723号</copyright>
-    <lastBuildDate>Sun, 14 Jul 2024 14:55:37 +0100</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>定制化的歌曲生成器</title>
-      <link>http://localhost:1313/posts/custom-music-generator/</link>
+      <link>http://localhost:1313/projects/custom-song-generator/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/custom-music-generator/</guid>
+      <guid>http://localhost:1313/projects/custom-song-generator/</guid>
       <description>定制化的歌曲生成器(Custom Song Generator)，它能够让你更加定制化的生成音乐，提供了音乐风格，纯乐器等选项，可生成效果不错并且定制化的歌曲</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/custom-music-generator/cover.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/custom-song-generator/cover.png" />
     </item>
     
     <item>
       <title>歌曲生成器</title>
-      <link>http://localhost:1313/posts/music-generator/</link>
+      <link>http://localhost:1313/projects/song-generator/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/music-generator/</guid>
+      <guid>http://localhost:1313/projects/song-generator/</guid>
       <description>歌曲生成器(Song Generator)，它能够让你体验到ai生成音乐的快乐，只需要最简单的操作，即可生成效果不错的歌曲</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/music-generator/cover.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/song-generator/cover.png" />
     </item>
     
     <item>
       <title>和弦进行生成器</title>
-      <link>http://localhost:1313/posts/chord-progression-generator/</link>
+      <link>http://localhost:1313/projects/chord-progression-generator/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/chord-progression-generator/</guid>
+      <guid>http://localhost:1313/projects/chord-progression-generator/</guid>
       <description>和弦进行生成器(Chord Progression Generator)，它能够为音乐人在作曲或者改编歌曲的初期提供和弦进行的灵感，让“万事开头难”变得不再难。</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/chord-progression-generator/cover.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/chord-progression-generator/cover.png" />
+    </item>
+    
+    <item>
+      <title>TimeLine</title>
+      <link>http://localhost:1313/time-line/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/time-line/</guid>
+      <description> 官网页上线 2024年7月15日 X-ToneTone/index HTML 0 0 Chord Progression Generator上线 2024年6月30日 用一下！ ToneTone成立 2024年6月15日 关于ToneTone loading </description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/time-line/cover.svg" />
+    </item>
+    
+    <item>
+      <title>关于ToneTone</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description>亲爱的音乐爱好者， 我们是ToneTone，一个由程序员和音乐爱好者共同组成的团队。我们深知在编程的世界里，AI的辅助让我们的日常工作效率和创造力得到了极大的提升。 🎼 我们的使命 🎼 现在，我们希望将这份神奇带入音乐创作领域，面向专业音乐人提供基于AI的协作工具，让音乐创作变得更加简单、高效且充满灵感。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/about/cover.svg" />
     </item>
     
   </channel>

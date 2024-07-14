@@ -2,11 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ToneTone</title>
-    <link>//localhost:63087/zh-cn/</link>
+    <link>http://localhost:1313/zh-cn/</link>
     <description>Recent content on ToneTone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <copyright>© 2024 ToneTone</copyright>
-    <atom:link href="//localhost:63087/zh-cn/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2024 ToneTone · 粤ICP备2024278723号</copyright>
+    <lastBuildDate>Sun, 14 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/zh-cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TimeLine</title>
+      <link>http://localhost:1313/zh-cn/time-line/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/time-line/</guid>
+      <description> 官网页上线 2024年7月15日 X-ToneTone/index HTML 0 0 Chord Progression Generator上线 2024年6月30日 用一下！ ToneTone成立 2024年6月15日 关于ToneTone loading </description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/zh-cn/time-line/cover.svg" />
+    </item>
+    
+    <item>
+      <title>关于ToneTone</title>
+      <link>http://localhost:1313/zh-cn/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/about/</guid>
+      <description>亲爱的音乐爱好者， 我们是ToneTone，一个由程序员和音乐爱好者共同组成的团队。我们深知在编程的世界里，AI的辅助让我们的日常工作效率和创造力得到了极大的提升。 🎼 我们的使命 🎼 现在，我们希望将这份神奇带入音乐创作领域，面向专业音乐人提供基于AI的协作工具，让音乐创作变得更加简单、高效且充满灵感。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/zh-cn/about/cover.svg" />
+    </item>
+    
   </channel>
 </rss>

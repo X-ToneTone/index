@@ -12,7 +12,7 @@ autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
 
-mainSections = ["posts"]
+mainSections = ["projects"]
 # robots = ""
 
 [header]
@@ -29,9 +29,9 @@ mainSections = ["posts"]
   layout = "background" # valid options: page, profile, hero, card, background, custom
   homepageImage = "img/background.svg" # used in: hero, and card
   showRecent = true
-  showRecentItems = 3
+  showRecentItems = 10
   showMoreLink = true
-  showMoreLinkDest = "/blowfish_artist/posts"
+  showMoreLinkDest = "projects"
   cardView = true
   cardViewScreenWidth = false
   layoutBackgroundBlur = true # only used when layout equals background

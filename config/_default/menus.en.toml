@@ -10,21 +10,21 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
-[[main]]
-name = "Products"
-pageRef = "posts"
-weight = 10
+# [[main]]
+# name = "Products"
+# pageRef = "projects"
+# weight = 10
 
-[[main]]
-name = "TimeLine"
-pageRef = "tags"
-weight = 20
+# [[main]]
+# name = "TimeLine"
+# pageRef = "time-line"
+# weight = 20
 
 
-[[main]]
-name = "About ToneTone"
-pageRef = "tags"
-weight = 30
+# [[main]]
+# name = "About ToneTone"
+# pageRef = "about"
+# weight = 30
 
 [[main]]
 identifier = "web"
