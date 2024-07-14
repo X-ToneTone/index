@@ -1,5 +1,5 @@
 # workflow 工作流的名字，自定义
-name: ChordProgression-UI
+name: ToneTone Index
 
 # 配置触发条件
 on:
@@ -24,7 +24,7 @@ jobs:
 
       - name: zip dist
         run: |
-          zip -r ToneToneIndex.zip ./public
+          zip -r tonetone-index.zip ./public
 
       - name: scp to Server # 传输文件到服务器
         uses: cross-the-world/scp-pipeline@master
@@ -33,9 +33,11 @@ jobs:
           user: ${{ secrets.SERVER_USER }}
           pass: ${{ secrets.SERVER_PASS }}
           connect_timeout: 10s
-          local: './ToneToneIndex.zip' # 源路径（工作流）
+          local: './tonetone-index.zip' # 源路径（工作流）
           remote: /usr/local/github/tonetone-index # 目标路径（服务器）
 
+      - name: remove files
+        run: rm -rf ./*
 
       - name: Deploy to Server # 执行部署任务
         uses: appleboy/ssh-action@master
@@ -45,4 +47,9 @@ jobs:
           password: ${{ secrets.SERVER_PASS }}
           script: |
             cd /usr/local/github/tonetone-index
-            unzip -o ToneToneIndex.zip
+            unzip -o tonetone-index.zip
+            docker kill tonetone-index
+            docker rm tonetone-index
+            docker rmi tonetone-index
+            docker build -t tonetone-index.
+            docker run -d --name tonetone-index--ip localhost -p 8000:80 tonetone-index
