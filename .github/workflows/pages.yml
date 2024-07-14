@@ -24,7 +24,7 @@ jobs:
 
       - name: zip dist
         run: |
-          zip -r tonetone-index.zip ./public
+          zip -r tonetone-index.zip ./public ./nginx ./dockerfile
 
       - name: scp to Server # 传输文件到服务器
         uses: cross-the-world/scp-pipeline@master
