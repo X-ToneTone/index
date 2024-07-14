@@ -45,4 +45,4 @@ jobs:
           password: ${{ secrets.SERVER_PASS }}
           script: |
             cd /usr/local/github/tonetone-index
-            unzip -o tonetone-index.zip
+            unzip -o ToneToneIndex.zip
