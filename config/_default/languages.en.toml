@@ -9,14 +9,15 @@ isoCode = "en"
 rtl = false
 description = "My awesome website"
 dateFormat = "2 January 2006"
+copyright = "© { year } ToneTone · 粤ICP备2024278723号"
 # logo = "img/logo.png"
 # secondaryLogo = "img/logo.png"
 
 [author]
 name = "ToneTone"
 image = "img/logo.png"
-headline = "为你提供更加专业，易用的音乐AI工具"
-bio = "一个由音乐爱好者和程序员组成的团队，希望带给你专业的音乐体验！"
+headline = "Provide you with a more professional and user-friendly music AI tool."
+bio = "A team composed of music enthusiasts and programmers, hoping to bring you a professional musical experience!"
 links = [
   { github = "https://github.com/X-ToneTone" },
   { link = "https://raw.githubusercontent.com/X-ToneTone/shares/main/wechat.jpg" },

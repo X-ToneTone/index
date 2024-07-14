@@ -11,26 +11,32 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Products"
-  pageRef = "posts"
-  weight = 10
+name = "Products"
+pageRef = "posts"
+weight = 10
 
 [[main]]
-  name = "TimeLine"
-  pageRef = "tags"
-  weight = 20
+name = "TimeLine"
+pageRef = "tags"
+weight = 20
+
 
 [[main]]
-  identifier = "web"
-  pre = "link"
-  url = "https://raw.githubusercontent.com/X-ToneTone/shares/main/wechat.jpg"
-  weight = 40
+name = "About ToneTone"
+pageRef = "tags"
+weight = 30
 
 [[main]]
-  identifier = "github"
-  pre = "github"
-  url = "https://github.com/nunocoracao/blowfish"
-  weight = 50
+identifier = "web"
+pre = "link"
+url = "https://raw.githubusercontent.com/X-ToneTone/shares/main/wechat.jpg"
+weight = 40
+
+[[main]]
+identifier = "github"
+pre = "github"
+url = "https://github.com/nunocoracao/blowfish"
+weight = 50
 
 
 # -- Footer Menu --

@@ -11,26 +11,31 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "产品"
-  pageRef = "posts"
-  weight = 10
+name = "产品"
+pageRef = "posts"
+weight = 10
 
 [[main]]
-  name = "时间线"
-  pageRef = "tags"
-  weight = 20
+name = "时间线"
+pageRef = "tags"
+weight = 20
 
 [[main]]
-  identifier = "web"
-  pre = "link"
-  url = "https://raw.githubusercontent.com/X-ToneTone/shares/main/wechat.jpg"
-  weight = 40
+name = "关于ToneTone"
+pageRef = "tags"
+weight = 30
 
 [[main]]
-  identifier = "github"
-  pre = "github"
-  url = "https://github.com/nunocoracao/blowfish"
-  weight = 50
+identifier = "web"
+pre = "link"
+url = "https://raw.githubusercontent.com/X-ToneTone/shares/main/wechat.jpg"
+weight = 40
+
+[[main]]
+identifier = "github"
+pre = "github"
+url = "https://github.com/nunocoracao/blowfish"
+weight = 50
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before

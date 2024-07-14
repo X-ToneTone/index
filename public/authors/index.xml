@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on ToneTone</title>
-    <link>//localhost:63087/authors/</link>
+    <link>http://localhost:1313/authors/</link>
     <description>Recent content in Authors on ToneTone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <copyright>© 2024 ToneTone</copyright>
-    <atom:link href="//localhost:63087/authors/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2024 ToneTone · 粤ICP备2024278723号</copyright>
+    <atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

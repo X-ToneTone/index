@@ -7,8 +7,9 @@ title = "ToneTone"
 displayName = "中文"
 isoCode = "zh-cn"
 rtl = false
-description = "My awesome website"
 dateFormat = "2 January 2006"
+description = "我们是ToneTone，一个由程序员和音乐爱好者共同组成的团队。我们深知在编程的世界里，AI的辅助让我们的日常工作效率和创造力得到了极大的提升。"
+copyright = "© { year } ToneTone · 粤ICP备2024278723号"
 # logo = "img/logo.png"
 # secondaryLogo = "img/logo.png"
 

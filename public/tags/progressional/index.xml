@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Progressional on ToneTone</title>
+    <link>http://localhost:1313/tags/progressional/</link>
+    <description>Recent content in Progressional on ToneTone</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2024 ToneTone · 粤ICP备2024278723号</copyright>
+    <lastBuildDate>Sun, 14 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/progressional/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>定制化的歌曲生成器</title>
+      <link>http://localhost:1313/posts/custom-music-generator/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/custom-music-generator/</guid>
+      <description>定制化的歌曲生成器(Custom Song Generator)，它能够让你更加定制化的生成音乐，提供了音乐风格，纯乐器等选项，可生成效果不错并且定制化的歌曲</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/custom-music-generator/cover.png" />
+    </item>
+    
+  </channel>
+</rss>

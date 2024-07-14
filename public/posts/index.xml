@@ -2,50 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on ToneTone</title>
-    <link>//localhost:63087/posts/</link>
+    <link>http://localhost:58669/posts/</link>
     <description>Recent content in Posts on ToneTone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <copyright>© 2024 ToneTone</copyright>
-    <lastBuildDate>Mon, 13 Jun 2022 20:55:37 +0100</lastBuildDate><atom:link href="//localhost:63087/posts/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2024 ToneTone · 粤ICP备2024278723号</copyright>
+    <lastBuildDate>Mon, 13 Jun 2022 20:55:37 +0100</lastBuildDate><atom:link href="http://localhost:58669/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Super cool article that I wrote</title>
-      <link>//localhost:63087/posts/post-lite-one/</link>
+      <link>http://localhost:58669/posts/post-lite-one/</link>
       <pubDate>Sun, 04 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:63087/posts/post-lite-one/</guid>
+      <guid>http://localhost:58669/posts/post-lite-one/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in eleifend justo, vestibulum congue lacus. Quisque est libero, lacinia sed placerat ac, interdum id urna.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:63087/posts/post-lite-one/cover.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:58669/posts/post-lite-one/cover.png" />
     </item>
     
     <item>
       <title>Super cool article that I wrote</title>
-      <link>//localhost:63087/posts/post-lite-three/</link>
+      <link>http://localhost:58669/posts/post-lite-three/</link>
       <pubDate>Sun, 04 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:63087/posts/post-lite-three/</guid>
+      <guid>http://localhost:58669/posts/post-lite-three/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in eleifend justo, vestibulum congue lacus. Quisque est libero, lacinia sed placerat ac, interdum id urna.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:63087/posts/post-lite-three/cover.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:58669/posts/post-lite-three/cover.png" />
     </item>
     
     <item>
       <title>Super cool article that I wrote</title>
-      <link>//localhost:63087/posts/post-lite-two/</link>
+      <link>http://localhost:58669/posts/post-lite-two/</link>
       <pubDate>Sun, 04 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:63087/posts/post-lite-two/</guid>
+      <guid>http://localhost:58669/posts/post-lite-two/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in eleifend justo, vestibulum congue lacus. Quisque est libero, lacinia sed placerat ac, interdum id urna.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:63087/posts/post-lite-two/cover.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:58669/posts/post-lite-two/cover.png" />
     </item>
     
     <item>
       <title>Super cool article that I wrote</title>
-      <link>//localhost:63087/posts/post-lite-four/</link>
+      <link>http://localhost:58669/posts/post-lite-four/</link>
       <pubDate>Sat, 04 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:63087/posts/post-lite-four/</guid>
+      <guid>http://localhost:58669/posts/post-lite-four/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in eleifend justo, vestibulum congue lacus. Quisque est libero, lacinia sed placerat ac, interdum id urna.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:63087/posts/post-lite-four/cover.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:58669/posts/post-lite-four/cover.png" />
     </item>
     
   </channel>
