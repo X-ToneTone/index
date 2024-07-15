@@ -14,32 +14,47 @@ jobs:
     name: Build # job 的名字
     runs-on: ubuntu-latest # 指定任务执行的运行器。latest 表示是 GitHub 提供的最新稳定映像，但可能不是操作系统供应商提供的最新版本.
     steps: # 每一个 step 或者是执行一个 action，或者是执行一个命令
-      - name: Checkout # 从仓库中检出代码，供下一步使用
-        uses: actions/checkout@v4
+      # - name: Checkout # 从仓库中检出代码，供下一步使用
+      #   uses: actions/checkout@v4
 
-      - name: Build
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18.15.0'
+      # - name: Build
+      #   uses: actions/setup-node@v4
+      #   with:
+      #     node-version: '18.15.0'
 
-      - name: zip dist
-        run: |
-          zip -r tonetone-index.zip ./public ./nginx ./dockerfile
+      # - name: zip dist
+      #   run: |
+      #     zip -r tonetone-index.zip ./public ./nginx ./dockerfile
 
-      - name: scp to Server # 传输文件到服务器
-        uses: cross-the-world/scp-pipeline@master
-        with:
-          host: ${{ secrets.SERVER_HOST }}
-          user: ${{ secrets.SERVER_USER }}
-          pass: ${{ secrets.SERVER_PASS }}
-          connect_timeout: 10s
-          local: './tonetone-index.zip' # 源路径（工作流）
-          remote: /usr/local/github/tonetone-index # 目标路径（服务器）
+      # - name: scp to Server # 传输文件到服务器
+      #   uses: cross-the-world/scp-pipeline@master
+      #   with:
+      #     host: ${{ secrets.SERVER_HOST }}
+      #     user: ${{ secrets.SERVER_USER }}
+      #     pass: ${{ secrets.SERVER_PASS }}
+      #     connect_timeout: 10s
+      #     local: './tonetone-index.zip' # 源路径（工作流）
+      #     remote: /usr/local/github/tonetone-index # 目标路径（服务器）
 
-      - name: remove files
-        run: rm -rf ./*
+      # - name: remove files
+      #   run: rm -rf ./*
 
-      - name: Deploy to Server # 执行部署任务
+      # - name: Deploy to Server # 执行部署任务
+      #   uses: appleboy/ssh-action@master
+      #   with:
+      #     host: ${{ secrets.SERVER_HOST }}
+      #     username: ${{ secrets.SERVER_USER }}
+      #     password: ${{ secrets.SERVER_PASS }}
+      #     script: |
+      #       cd /usr/local/github/tonetone-index
+      #       unzip -o tonetone-index.zip
+      #       docker kill tonetone-index
+      #       docker rm tonetone-index
+      #       docker rmi tonetone-index
+      #       docker build -t tonetone-index.
+      #       docker run -d --name tonetone-index --ip localhost -p 8000:80 tonetone-index
+
+      - name: Deploy to Server
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.SERVER_HOST }}
@@ -47,9 +62,10 @@ jobs:
           password: ${{ secrets.SERVER_PASS }}
           script: |
             cd /usr/local/github/tonetone-index
-            unzip -o tonetone-index.zip
+            git clone --depth 1 git@github.com:X-ToneTone/index.git
+            cd ./index
             docker kill tonetone-index
             docker rm tonetone-index
             docker rmi tonetone-index
-            docker build -t tonetone-index.
-            docker run -d --name tonetone-index--ip 0:0:0:0 -p 8000:80 tonetone-index
+            docker build -t tonetone-index .
+            docker run -d --name tonetone-index --ip localhost -p 8000:80 tonetone-index
