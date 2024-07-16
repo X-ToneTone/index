@@ -28,7 +28,7 @@ layoutBackgroundHeaderSpace: false
 {{< /timelineItem >}}
 
 {{< timelineItem icon="code" header="Chord Progression Generator上线" badge="2024年6月30日">}}
-{{< button href="https://x-tonetone.com" target="_blank" >}}
+{{< button href="https://x-tonetone.com/app/cpg" target="_blank" >}}
 用一下！
 {{< /button >}}
 
