@@ -65,7 +65,6 @@ jobs:
             rm -rf ./*
             git clone --depth 1 https://gitclone.com/github.com/X-ToneTone/index.git
             cd ./index
-            docker kill tonetone-index
 
             if [ $(docker ps -aq -f name=tonetone-index) ]; then
                 docker kill tonetone-index
@@ -74,5 +73,6 @@ jobs:
             if [ $(docker images -q tonetone-index) ]; then
                 docker rmi tonetone-index
             fi
+            
             docker build -t tonetone-index .
             docker run -d --name tonetone-index --ip localhost -p 8000:80 tonetone-index
